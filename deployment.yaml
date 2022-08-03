@@ -17,4 +17,4 @@ spec:
       containers:
         -
           image: "alinaejaz/finalexam:v1.0"
-          name: webpages
+          name: webpage
