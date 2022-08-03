@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: devops-project
+    app: deployment-q6
   name: deployment-q6
 spec:
   replicas: 3
