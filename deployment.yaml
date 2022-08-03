@@ -3,16 +3,16 @@ kind: Deployment
 metadata:
   labels:
     app: devops-project
-  name: deployment-q6
+  name: deployment-ques6
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
-      app: deployment-q6
+      app: deployment-ques6
   template:
     metadata:
       labels:
-        app: deployment-q6
+        app: deployment-ques6
     spec:
       containers:
         -
